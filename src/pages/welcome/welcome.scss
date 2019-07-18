@@ -1,0 +1,49 @@
+page-welcome {
+    ion-content {
+        background: url('../../assets/imgs/login.jpg');
+        background-size: cover;
+        
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.13);
+        border-radius: 10px;
+        margin-top: 5em;
+    }
+    .container > div {
+    }
+    .wrapper {
+        color:lightgrey;
+    }
+    .navButtons{
+        border: 1px solid #85010E;
+        border-radius: 10px;
+    }
+    .forgtPaswrd {
+        
+        // margin-top: 15em;
+    }
+    .container button {
+        background: transparent;
+        color: #85010E;
+        font-size: 35px;
+        border: 1px solid #85010E;
+        border-radius: 5px;
+        height: 80px;
+
+        
+        // border-bottom: 1px solid black;
+        
+    }
+    .container h1 {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 50px;
+        color: #85010E;
+    }
+    .container h4 {
+        text-align: center;
+        color: #85010E;
+    }
+}

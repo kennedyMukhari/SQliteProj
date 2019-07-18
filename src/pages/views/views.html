@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      View
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding >
+  <!-- <div id='parent5' class="parent">
+    <div class="left">
+      <img src="../../assets/imgs/hughey.png" />
+      {{employee.name}} &nbsp; {{employee.surname}}
+    </div>
+    <div class="right">
+      <p>
+        <ion-icon ios="ios-person" md="md-person"></ion-icon> &nbsp; {{employee.position}}
+      </p>
+      <p>
+        <ion-icon name="transgender"></ion-icon> &nbsp; {{employee.gender}}
+      </p>
+    </div>
+  </div> -->
+  <ion-card *ngIf="employee">
+    <img src="../../assets/imgs/hughey.png"/>
+    <ion-list>
+      <ion-item>
+        Full Names: {{employee.name}} {{employee.surname}}
+      </ion-item>
+      <ion-item >
+        <ion-icon ios="ios-person" md="md-person"></ion-icon> &nbsp; {{employee.position}}
+      </ion-item>
+      <ion-item >
+        <ion-icon name="transgender"></ion-icon> &nbsp; {{employee.gender}}
+      </ion-item>
+    </ion-list>
+  </ion-card>
+</ion-content>

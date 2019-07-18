@@ -1,0 +1,30 @@
+page-edit-update {
+
+    ion-content {
+        background: url('../../assets/imgs/login.jpg');
+        background-size: cover;
+    }
+    .container {
+        display: flex;
+        margin-top: 1em;
+        flex-direction: column;
+    }
+    .wrapper {
+        margin: 0 auto;
+        position: inherit;
+        flex: 1;
+    }
+    .container .btn{
+        margin: 0 auto;
+    }
+    .container .btn button {
+        background: transparent;
+        color: #85010E;
+        font-size: 20px;
+        border: 1px solid #85010E;
+        border-radius: 5px;
+        align-content: center;
+        margin: 0 auto;
+    }
+    
+}

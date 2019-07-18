@@ -1,0 +1,23 @@
+page-home {
+
+    ion-content {
+        background: url('../../assets/imgs/login.jpg');
+        background-size: cover;
+    }
+    .container {
+        display: flex;
+        margin-top: 1em;
+    }
+    .wrapper {
+        margin: 0 auto;
+        position: inherit;
+        flex: 1;
+    }
+    .wrapper button {
+        color: skyblue;
+    }
+    .wrapper ion-fab button {
+        background: transparent;
+        color: white;
+    }
+}

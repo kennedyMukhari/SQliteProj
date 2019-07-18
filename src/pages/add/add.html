@@ -1,0 +1,56 @@
+<ion-header>
+
+  <ion-navbar>
+    <!-- <ion-buttons start>
+        <button ion-button icon-only (click)="dismiss()">
+          <ion-icon name="search"></ion-icon>
+        </button>
+      </ion-buttons> -->
+
+    <ion-title style="text-align: center">Employee Add</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="container">
+    <div class="wrapper">
+      <ion-list>
+        <ion-item>
+          <ion-label stacked> Name</ion-label>
+          <ion-input type="text" [(ngModel)]="employee.name"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label stacked> Surname</ion-label>
+          <ion-input type="text" [(ngModel)]="employee.surname"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked> Email</ion-label>
+          <ion-input type="text" [(ngModel)]="employee.email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked> Contact Numbers</ion-label>
+          <ion-input type="text" [(ngModel)]="employee.cnumber"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked> Gender</ion-label>
+          <ion-input type="text" [(ngModel)]="employee.gender"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked> Position</ion-label>
+          <ion-input type="text" [(ngModel)]="employee.position"></ion-input>
+        </ion-item>
+      </ion-list>
+    </div>
+    <div class="btn">
+        <button ion-button class="btn-add" (click)="createEmployee()"> + Employee</button>
+       </div>
+  </div>
+
+
+
+
+</ion-content>
